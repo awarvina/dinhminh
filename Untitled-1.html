@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <style>*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li:hover{
+    background-color:blue;
+    padding: 15px;
+
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+}
+h1{
+    margin: 30px 15px 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+main{
+    padding: 50px;
+}
+.section{
+    margin-bottom: 50px;
+}
+.section p{
+    text-align: center;
+}
+.section h2{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.products{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.section{
+    text-align: center;
+    margin: 0 0 20px;
+}
+.product{
+    width: calc(33.33%-20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product img{
+    width: 400px;
+    margin-bottom: 20px;
+    border: 1px solid green;
+    border-radius: 10px;
+}</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="">Giới thiệu</a></li>
+            <li><a href="">sách bán chạy</a></li>
+            <li><a href="">giỏ hàng</a></li>
+            <li><a href="">đăng ký</a></li>
+            <li><a href="">đăng nhập</a></li>
+        </ul>
+        </nav>
+        <h1>Bán sách online</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Sách mới</h2>
+        <div class="products">
+
+            <div class="product">
+                <img src="./sach1.jpg" alt="">
+                <h3>Sách 1</h3>
+                <p>Giá:<b>1.200.000 VNĐ</b></p>
+                <button>Mua ngay</button>
+            </div>
+
+            <div class="product">
+                <img src="./sach2.jpg" alt="">
+                <h3>Sách 2</h3>
+                <p>Giá:<b>2.000.000 VNĐ</b></p>
+                <button>Mua ngay</button>
+            </div> 
+            <div class="product">
+                <img src="./sach3.jpg" alt="">
+                <h3>Sách 3</h3>
+                <p>Giá:<b>2.000.000 VNĐ</b></p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="products"></div>
+            <div class="product">
+                <img src="./sach4.jpg" alt="">
+                <h3>Sách 4</h3>
+                <p>Giá:<b>1.200.000 VNĐ</b></p>
+                <button>Mua ngay</button>
+            </div>
+        
+            <div class="product">
+                <img src="./sach5.jpg" alt="">
+                
+                <h3>Sách 5</h3>
+                <p>Giá:<b>1.000.000 VNĐ</b></p>
+                <button>Mua ngay</button>
+            </div>
+
+            <div class="product">
+                <img src="./sach6.jpg" alt="">
+                <h3>Sách 6</h3>
+                <p>Giá:<b>500.000 VNĐ</b></p>
+                <button>Mua ngay</button>
+            </div>
+         </div> 
+         <div class="products">
+            <div class="product">
+                <img src="./sach7.jpg" alt="">
+                <h3>Sách 7</h3>
+                <p>Giá:<b>2.000.000 VNĐ</b></p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="./sach8.jpg" alt="">
+                <h3>Sách 8</h3>
+                <p>Giá:<b>126.000 VNĐ</b></p>
+                <button>Mua ngay</button>
+            </div>
+            <div class="product">
+                <img src="./sach9.jpg" alt="">
+                <h3>Sách 9</h3>
+                <p>Giá:<b>159.000 VNĐ</b></p>
+                <button>Mua ngay</button>
+                <section class="s2">
+                    <h2>Giới thiệu</h2>
+                    <p>Nhập vào giới thiệu của Bán sách Online của bạn</p>
+                </section>
+                <section class="s2">
+                    <h2>Liên hệ</h2>
+                    <forn>
+                        Họ và tên<input type="text" name="fname" id="fname"><br>
+                        Email<input type="email" name="email" id="email"><br>
+                        Nội dung<input type="text" name="message" id="message"><br>
+                        <button>Gửi</button>
+                    </forn>
+                </section>
+            </div>
+        </div>
+        </section>
+        
+    </main>
+
+</body>
+</html>
